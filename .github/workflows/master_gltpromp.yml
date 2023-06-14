@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'gltpromp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03F45C3A346B419B91A096C673F86FDB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
